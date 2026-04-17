@@ -34,7 +34,7 @@ html, body, [class*="css"] {
 }
 
 .main { background-color: var(--bg) !important; }
-.block-container { padding: 2rem 3rem !important; max-width: 1100px !important; }
+.block-container { padding: 2rem 3rem !important; max-width: 100% !important; }
 
 .hero {
     text-align: center;
@@ -229,7 +229,6 @@ st.markdown("""
 <div class="hero">
     <h1 class="hero-title">Flash<span>Forge</span> ⚡</h1>
     <p class="hero-sub">AI-Powered Flashcard Generator</p>
-    <span class="badge">✦ No API Key · Runs Offline · Pure Python</span>
 </div>
 """, unsafe_allow_html=True)
 
